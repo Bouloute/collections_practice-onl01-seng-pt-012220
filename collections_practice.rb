@@ -54,3 +54,7 @@ def sum_array(array)
   #array.each{|n| sum += n}
   #sum
 end
+
+def add_s(array)
+  array.each{|word| word << "s"}
+end
