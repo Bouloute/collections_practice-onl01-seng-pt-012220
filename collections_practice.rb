@@ -63,7 +63,7 @@ def add_s(array)
   # }
 
   array.each_with_index{|word, index|
-    if index != 2
+    if index != 1
       word << "s"
     end
   }
