@@ -42,9 +42,14 @@ def find_a(array)
 end
 
 def sum_array(array)
-  #array.reduce(:+)
-  #array.reduce{|sum, number| sum + number}
+  #Methods that work
+  #1) array.reduce(:+)
+  #2) array.reduce{|sum, number| sum + number}
+  #3) array.inject(:+)
+  #4) array.inject{|sum, number| sum + number}
 
-  #array.inject(:+)
-  array.inject{|sum, number| sum + number}
+  #default
+  sum = 0
+  puts array.collect{|n| sum + n}
+   
 end
