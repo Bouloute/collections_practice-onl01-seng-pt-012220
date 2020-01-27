@@ -56,8 +56,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each{|word| 
+  array.each{|word|
     if word != "feet"
-       word << "s" 
-     end}
+       word << "s"
+     end
+   }
 end
