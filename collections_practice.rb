@@ -46,7 +46,7 @@ def sum_array(array)
   #1) array.reduce(:+)
   #2) array.reduce{|sum, number| sum + number}
   #3) array.inject(:+)
-  #4) 
+  #4)
   array.inject{|sum, number| sum + number}
 
   #default
