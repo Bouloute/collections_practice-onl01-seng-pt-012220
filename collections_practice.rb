@@ -50,6 +50,6 @@ def sum_array(array)
 
   #default
   sum = 0
-  puts array.collect{|n| sum + n}
+  puts array.collect{|n| sum += n}
 
 end
