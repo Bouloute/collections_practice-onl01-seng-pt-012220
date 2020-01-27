@@ -62,6 +62,8 @@ def add_s(array)
   #   end
   # }
   array.each_with_index.collect{|element, index|
-    puts element
+    if index != 1
+      element << "s"
+    end
   }
 end
